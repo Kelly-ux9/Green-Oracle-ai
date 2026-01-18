@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Green Oracle | Real AI Plant Diagnosis</title>
+
+    <!-- TensorFlow.js & Pretrained Model -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🌿 THE GREEN ORACLE</h1>
+    <p>Real AI Plant Disease Detection System</p>
+</header>
+
+<main>
+    <input type="file" id="imageUpload" accept="image/*">
+
+    <div class="image-box">
+        <img id="preview" />
+    </div>
+
+    <div id="status">Loading AI model...</div>
+
+    <div id="result" class="result-box"></div>
+</main>
+
+<footer>
+    <p>© 2026 The Green Oracle | Client-Side Artificial Intelligence</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
