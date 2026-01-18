@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f8e9;
+    text-align: center;
+}
+
+header {
+    background: #2e7d32;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    padding: 30px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+.image-box img {
+    max-width: 300px;
+    border-radius: 10px;
+    display: none;
+}
+
+#status {
+    margin: 15px;
+    font-weight: bold;
+    color: #1b5e20;
+}
+
+.result-box {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    background: #1b5e20;
+    color: white;
+}
